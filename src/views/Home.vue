@@ -4,8 +4,8 @@
             <!-- Main container -->
             <nav class="columns">
                 <!-- Left side -->
-                <div class="column is-narrow is-hidden-mobile">
-                    <aside class="menu" style="width: 200px;">
+                <div class="column is-narrow is-hidden-mobile" style="width: 164px;">
+                    <aside class="menu">
                         <p class="menu-label">
                             General
                         </p>
@@ -46,8 +46,8 @@
 
                     <HelloWorld msg="Welcome to Your Vue.js App"/>
                 </div>
-                <div class="column is-narrow">
-                    <div class="notification" style="width: 300px;">
+                <div class="column is-narrow is-one-fifth">
+                    <div class="notification">
                         Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Sit amet,
                         consectetur adipiscing elit

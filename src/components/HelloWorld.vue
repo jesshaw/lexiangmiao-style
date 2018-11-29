@@ -1,8 +1,25 @@
 <template>
     <div>
+        <nav class="level is-mobile">
+            <div class="level-left"><p class="title is-3">最新提问</p></div>
+            <div class="level-right"><a class="button is-link">提问</a></div>
+        </nav>
+        <nav class="level">
+            <div class="level-left"></div>
+            <div class="level-right">
+                <div class="buttons has-addons">
+                    <span class="button is-static">兴趣</span>
+                    <span class="button ">特色</span>
+                    <span class="button">热点</span>
+                    <span class="button">周排行</span>
+                    <span class="button">月排行</span>
+                </div>
+            </div>
+        </nav>
+        <hr/>
         <div class="columns question-summary">
             <div class="column is-narrow">
-                <div class="columns has-text-centered" style="width: 176px;">
+                <div class="columns is-mobile has-text-centered" style="width: 176px;">
                     <div class="column votes">
                         <div>6</div>
                         <div>点赞</div>
@@ -18,26 +35,25 @@
                 </div>
             </div>
             <div class="column">
-                <div class="tile">{{ msg }}fdsafd  asffds afad sfasfdasfasf asfas dfsafdasf asfdasff dsafdsf adsfa
+                <p class="title is-6">
+                    {{ msg }}fdsafd asffds afad sfasfdasfasf asfas dfsafdasf asfdasff dsafdsf adsfa
                     sfdasfd asfasfasfas fasfa sfsafsf kk
-                </div>
-                <div class="columns">
-                    <div class="column">
+                </p>
+                <nav class="level">
+                    <div class="level-left">
                         <div class="tags">
                             <a class="tag">saf</a>
                             <a class="tag">cc</a>
                             <a class="tag">dd</a>
                         </div>
                     </div>
-                    <div class="column">
-                        modified 1 min ago Daniel Larsson 537
-                    </div>
-                </div>
+                    <div class="level-right"> modified 1 min ago Daniel Larsson 537</div>
+                </nav>
             </div>
         </div>
         <div class="columns question-summary">
             <div class="column is-narrow">
-                <div class="columns has-text-centered" style="width: 176px;">
+                <div class="columns is-mobile  has-text-centered" style="width: 176px;">
                     <div class="column votes">
                         <div>6</div>
                         <div>点赞</div>
@@ -53,26 +69,26 @@
                 </div>
             </div>
             <div class="column">
-                <div class="tile">{{ msg }}fdsafd  asffds afad sfasfdasfasf asfas dfsafdasf asfdasff dsafdsf adsfa
+                <p class="title is-6">
+                    {{ msg }}fdsafd asffds afad sfasfdasfasf asfas dfsafdasf asfdasff dsafdsf adsfa
                     sfdasfd asfasfasfas fasfa sfsafsf kk
-                </div>
-                <div class="columns">
-                    <div class="column">
+                </p>
+
+                <nav class="level">
+                    <div class="level-left">
                         <div class="tags">
                             <a class="tag">saf</a>
                             <a class="tag">cc</a>
                             <a class="tag">dd</a>
                         </div>
                     </div>
-                    <div class="column">
-                        modified 1 min ago Daniel Larsson 537
-                    </div>
-                </div>
+                    <div class="level-right"> modified 1 min ago Daniel Larsson 537</div>
+                </nav>
             </div>
         </div>
         <div class="columns question-summary">
             <div class="column is-narrow">
-                <div class="columns has-text-centered" style="width: 176px;">
+                <div class="columns is-mobile has-text-centered" style="width: 176px;">
                     <div class="column votes">
                         <div>6</div>
                         <div>点赞</div>
@@ -88,21 +104,19 @@
                 </div>
             </div>
             <div class="column">
-                <div class="tile">{{ msg }}fdsafd  asffds afad sfasfdasfasf asfas dfsafdasf asfdasff dsafdsf adsfa
+                <div class="tile">{{ msg }}fdsafd asffds afad sfasfdasfasf asfas dfsafdasf asfdasff dsafdsf adsfa
                     sfdasfd asfasfasfas fasfa sfsafsf kk
                 </div>
-                <div class="columns">
-                    <div class="column">
+                <nav class="level">
+                    <div class="level-left">
                         <div class="tags">
                             <a class="tag">saf</a>
                             <a class="tag">cc</a>
                             <a class="tag">dd</a>
                         </div>
                     </div>
-                    <div class="column">
-                        modified 1 min ago Daniel Larsson 537
-                    </div>
-                </div>
+                    <div class="level-right"> modified 1 min ago Daniel Larsson 537</div>
+                </nav>
             </div>
         </div>
     </div>
@@ -120,7 +134,7 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
     .question-summary {
-        border-bottom: 1px solid #f5f5f5;
+        border-bottom: 2px solid whitesmoke;
     }
 
     .votes, .status, .views {

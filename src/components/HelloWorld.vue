@@ -104,9 +104,115 @@
                 </div>
             </div>
             <div class="column">
-                <div class="tile">{{ msg }}fdsafd asffds afad sfasfdasfasf asfas dfsafdasf asfdasff dsafdsf adsfa
+                <p class="title is-6">
+                    {{ msg }}fdsafd asffds afad sfasfdasfasf asfas dfsafdasf asfdasff dsafdsf adsfa
                     sfdasfd asfasfasfas fasfa sfsafsf kk
+                </p>
+
+                <nav class="level">
+                    <div class="level-left">
+                        <div class="tags">
+                            <a class="tag">saf</a>
+                            <a class="tag">cc</a>
+                            <a class="tag">dd</a>
+                        </div>
+                    </div>
+                    <div class="level-right"> modified 1 min ago Daniel Larsson 537</div>
+                </nav>
+            </div>
+        </div>
+        <div class="columns question-summary">
+            <div class="column is-narrow">
+                <div class="columns is-mobile has-text-centered" style="width: 176px;">
+                    <div class="column votes">
+                        <div>6</div>
+                        <div>点赞</div>
+                    </div>
+                    <div class="column status answered">
+                        <div>1</div>
+                        <div>回答</div>
+                    </div>
+                    <div class="column views">
+                        <div>10</div>
+                        <div>查看</div>
+                    </div>
                 </div>
+            </div>
+            <div class="column">
+                <p class="title is-6">
+                    {{ msg }}fdsafd asffds afad sfasfdasfasf asfas dfsafdasf asfdasff dsafdsf adsfa
+                    sfdasfd asfasfasfas fasfa sfsafsf kk
+                </p>
+                <nav class="level">
+                    <div class="level-left">
+                        <div class="tags">
+                            <a class="tag">saf</a>
+                            <a class="tag">cc</a>
+                            <a class="tag">dd</a>
+                        </div>
+                    </div>
+                    <div class="level-right"> modified 1 min ago Daniel Larsson 537</div>
+                </nav>
+            </div>
+        </div>
+        <div class="columns question-summary">
+            <div class="column is-narrow">
+                <div class="columns is-mobile  has-text-centered" style="width: 176px;">
+                    <div class="column votes">
+                        <div>6</div>
+                        <div>点赞</div>
+                    </div>
+                    <div class="column status answered-accepted">
+                        <div>1</div>
+                        <div>回答</div>
+                    </div>
+                    <div class="column views">
+                        <div>10</div>
+                        <div>查看</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <p class="title is-6">
+                    {{ msg }}fdsafd asffds afad sfasfdasfasf asfas dfsafdasf asfdasff dsafdsf adsfa
+                    sfdasfd asfasfasfas fasfa sfsafsf kk
+                </p>
+
+                <nav class="level">
+                    <div class="level-left">
+                        <div class="tags">
+                            <a class="tag">saf</a>
+                            <a class="tag">cc</a>
+                            <a class="tag">dd</a>
+                        </div>
+                    </div>
+                    <div class="level-right"> modified 1 min ago Daniel Larsson 537</div>
+                </nav>
+            </div>
+        </div>
+        <div class="columns question-summary">
+            <div class="column is-narrow">
+                <div class="columns is-mobile has-text-centered" style="width: 176px;">
+                    <div class="column votes">
+                        <div>6</div>
+                        <div>点赞</div>
+                    </div>
+                    <div class="column status unanswered">
+                        <div>0</div>
+                        <div>回答</div>
+                    </div>
+                    <div class="column views">
+                        <div>10</div>
+                        <div>查看</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <p class="title is-6">
+                    {{ msg }}fdsafd asffds afad sfasfdasfasf asfas dfsafdasf asfdasff dsafdsf adsfa
+                    sfdasfd asfasfasfas fasfa sfsafsf kk
+                </p>
+
                 <nav class="level">
                     <div class="level-left">
                         <div class="tags">
@@ -145,6 +251,8 @@
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 5px;
+        cursor: pointer;
+
     }
 
     .unanswered {

@@ -225,6 +225,10 @@
                 </nav>
             </div>
         </div>
+        <p class="title is-6">
+            {{ msg }}fdsafd asffds afad sfasfdasfasf asfas dfsafdasf asfdasff dsafdsf adsfa
+            sfdasfd asfasfasfas fasfa sfsafsf kk
+        </p>
     </div>
 </template>
 

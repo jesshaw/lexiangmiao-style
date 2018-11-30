@@ -1,42 +1,36 @@
 <template>
-    <section class="section">
+    <div>
+    <section class="hero is-primary is-bold is-info">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Primary bold title
+                </h1>
+                <h2 class="subtitle">
+                    Primary bold subtitle
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section main-content">
         <div class="container">
             <!-- Main container -->
             <nav class="columns">
                 <!-- Left side -->
-                <div class="column is-narrow is-hidden-mobile" style="width: 164px;">
+                <div class="column is-narrow is-hidden-mobile main-content-aside">
                     <aside class="menu">
-                        <p class="menu-label">
-                            General
-                        </p>
                         <ul class="menu-list">
-                            <li><a>Dashboard</a></li>
-                            <li><a>Customers</a></li>
-                        </ul>
-                        <p class="menu-label">
-                            Administration
-                        </p>
-                        <ul class="menu-list">
-                            <li><a>Team Settings</a></li>
+                            <li><a class="is-active">首页</a></li>
                             <li>
-                                <a class="is-active">Manage Your Team</a>
+                                <a class="is-disabled">导航</a>
+
+
                                 <ul>
-                                    <li><a>Members</a></li>
-                                    <li><a>Plugins</a></li>
-                                    <li><a>Add a member</a></li>
+                                    <li><a>问题</a></li>
+                                    <li><a>标签</a></li>
+                                    <li><a>用户</a></li>
                                 </ul>
                             </li>
-                            <li><a>Invitations</a></li>
-                            <li><a>Cloud Storage Environment Settings</a></li>
-                            <li><a>Authentication</a></li>
-                        </ul>
-                        <p class="menu-label">
-                            Transactions
-                        </p>
-                        <ul class="menu-list">
-                            <li><a>Payments</a></li>
-                            <li><a>Transfers</a></li>
-                            <li><a>Balance</a></li>
                         </ul>
                     </aside>
                 </div>
@@ -57,6 +51,7 @@
 
         </div>
     </section>
+    </div>
 </template>
 
 <script>
@@ -70,3 +65,12 @@
         }
     }
 </script>
+<style lang="scss">
+    .main-content {
+        padding-top: 1.5rem;
+    }
+
+    .main-content-aside{
+        width: 164px;border-right: 2px solid whitesmoke;
+    }
+</style>

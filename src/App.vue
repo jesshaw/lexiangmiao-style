@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
+        <nav class="navbar has-shadow is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
             <div class="container">
                 <div class="navbar-brand">
                     <router-link to="/" class="navbar-item" @click.native="triggerNav">
@@ -80,18 +80,6 @@
                 </div>
             </div>
         </nav>
-        <section class="hero is-primary is-bold is-info">
-            <div class="hero-body">
-                <div class="container">
-                    <h1 class="title">
-                        Primary bold title
-                    </h1>
-                    <h2 class="subtitle">
-                        Primary bold subtitle
-                    </h2>
-                </div>
-            </div>
-        </section>
         <router-view/>
         <footer class="footer">
             <div class="content has-text-centered">

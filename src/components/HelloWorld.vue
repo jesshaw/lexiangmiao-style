@@ -2,7 +2,7 @@
     <div>
         <nav class="level is-mobile">
             <div class="level-left"><p class="title is-3">最新提问</p></div>
-            <div class="level-right"><a class="button is-link">提问</a></div>
+            <div class="level-right"><a class="button is-link">立即提问</a></div>
         </nav>
         <nav class="level">
             <div class="level-left"></div>

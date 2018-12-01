@@ -109,4 +109,12 @@
 
 <style lang="scss">
     @import "~bulma/bulma";
+
+    .main-content {
+        padding-top: 1.5rem;
+    }
+
+    .main-content-aside{
+        width: 164px;border-right: 2px solid whitesmoke;
+    }
 </style>
